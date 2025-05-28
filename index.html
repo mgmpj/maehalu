@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>flower festival</title>
+    
+</head>
+<body>
+
+<h1>広島日記</h1>
+<h2>フラワーフェスティバル（FF）に行きました!</h2>
+<p>毎年5月3,4,5に開催される広島の三大祭りのひとつ</p>
+<h3 id="text">今年のテーマは「咲かそうよ 平和の種から 花いっぱい」</h3>
+<a href="#"id="link">フラワーフェスティバルの公式サイトへ移動</a>
+<a href="image.html">当日の様子</a>
+<h4><f>今年のフラワーフェスティバルの注目はこちら！</f></h4>
+<a href="video.html"><li><strong>競輪ブース</strong></li></a>
+<li><strong>パレード</strong></li>
+<li><strong>ご当地屋台</strong></li>
+<table border="5" bordercolor="blue">
+    <ul class="contents">
+        <tr><th> </th><th>場所</th><th>金額</th></tr>
+        <tr><th>競輪ブース</th><th>覚えとらん</th><th>無料</th></tr>
+        <tr><th>パレード</th><th>平和大通り</th><th>無料</th></tr>
+        <tr><th>ご当地屋台</th><th>平和大通りの脇道</th><th>有料</th></tr>
+    </ul>
+</table>
+<form name="myform">
+    <h5>個人的に一番面白かったのはどれ？</h5>
+    <input name="myradio" type="radio" value="keirin">競輪ブース<br>
+    <input name="myradio" type="radio" value="parade">パレード<br>
+    <input name="myradio" type="radio" value="mesi">ご当地屋台
+</form>
+<button onclick="checkanswer()">回答チェック</button>
+<p id="result"></p>
+<textarea name="otoiawase" rows="5" cols="40" placeholder="お問い合わせ内容"></textarea>
+<input type="email" name="emailaddress" placeholder="差出人"></input>
+<button>送信</button>
+<script src="index.js"></script>
+</body>
+</html>
