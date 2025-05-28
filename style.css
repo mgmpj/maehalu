@@ -1,0 +1,17 @@
+video {
+    position: absolute;
+    height: auto;
+    top: 15%;
+    left: 0%;
+    width: 80%
+}
+p{
+    position: absolute;
+    top: 4%;
+    left: 80%;
+}
+r{
+    position: absolute;
+    top: 7%;
+    left: 70%;
+}
