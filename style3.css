@@ -1,0 +1,8 @@
+body{
+    background-color: cyan;
+}
+img{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+}
